@@ -12,6 +12,13 @@ How many distinct subsequences of s equal t? "rabbbit" spells "rabbit" 3 ways (c
 
 **Complexity:** O(n·m) time, O(m) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
